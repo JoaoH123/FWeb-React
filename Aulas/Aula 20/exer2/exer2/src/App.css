@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: wheat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 30%;
+  height: 32%;
+  width: 15%;
+  background-image: linear-gradient(to right, aquamarine, blue);
+}
+
+.itens {
+  width: 80%;
+  height: 40%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px ;
+  opacity: 0.7;
+  margin: 1%;
+  margin-top: 5%;
+  font-size: small;
+  background-image: linear-gradient(to right, aquamarine, blue);
+}
+
+.title{
+  margin-bottom: 5%;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.button{
+  margin-top: 10%;
+  text-align: center;
+  gap: 10%;
+}
+
+.button button {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px
+}
+
+.itens input {
+  border-radius: 10px;
+  margin-left: 10%;
+  width: 80%;
+  height: 17%;
+}
+
+.itens h2 {
+  margin-left: 10%;
+}
+
+.texto1 {
+  margin-top: 2.5%;
+}

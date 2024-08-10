@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20%;
+  font-family:Papyrus, serif;
+  
+} 
+
+body {
+  background-color: aqua;
+}
