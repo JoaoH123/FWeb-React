@@ -1,10 +1,10 @@
 import './App.css';
-import Contador from './components/contador';
+import NameForm from './components/nameForm';
 
 function App() {
   return (
     <div className="App">
-      <Contador />
+      <NameForm />
     </div>
   );
 }
