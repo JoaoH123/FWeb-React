@@ -1,7 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Contador() {
     const [contador, setContador] = useState(0)
+    useEffect(() => {
+        const timerID = setInterval(() => { setContador(contador + 1) }, 1000)
+        return () => clearInterval(timerID)
+    }, [])
+
     function adicionarCont() {
         setContador(contador + 1);
     }
