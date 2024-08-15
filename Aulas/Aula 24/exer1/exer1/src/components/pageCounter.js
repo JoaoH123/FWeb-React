@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import {Link} from 'react-router-dom'
 
 function Contador() {
     const [contador, setContador] = useState(0)
@@ -18,6 +19,9 @@ function Contador() {
             <div className="contador">{contador}</div>
             <button className="button" onClick={removerCont}>Diminuir</button>
             <button className="button" onClick={adicionarCont}>Adicionar</button>
+            <p className="link">
+            <Link to='/'> Página Principal</Link>
+            </p>
         </div>
     )
 }

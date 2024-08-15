@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import {Link} from 'react-router-dom'
 
 function Calculadora(){
     const [numero1, setNumero1] = useState(0)
@@ -17,6 +18,9 @@ function Calculadora(){
             <p className="mensagem">Subtração: {subtracao}</p>
             <p className="mensagem">Multiplicação: {multiplicacao}</p>
             <p className="mensagem">Divisão: {divisao}</p>
+            <p className="link">
+            <Link to='/'> Página Principal</Link>
+            </p>
         </div>
     )
 }

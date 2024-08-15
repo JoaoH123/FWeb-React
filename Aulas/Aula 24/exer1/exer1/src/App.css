@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.button {
+  height: 24px;
+  width: 65px;
+}
+
+.text {
+  text-align: center;
+  height: 20px;
+  margin: 3px;
+}
+
+.mensagem {
+  text-align: center;
+  font-size: larger;
+}
+
+.contador {
+  text-align: center;
+  font-size: x-large;
+}
+
+.link {
+  text-align: center;
+}
+
+.linkName {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
